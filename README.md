@@ -1,6 +1,2 @@
-# repo-eletiva-git
-Exemplo da aula de introdução ao GIT e GITHUB
+# xhopii-projeto
 
-## TESTE
-
-Testando o README
