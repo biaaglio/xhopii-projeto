@@ -1,0 +1,100 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.menu-logo img{
+    height: 55px;
+    margin-left: 30px;
+}
+.menu-logo{
+    background-color: rgb(221, 63, 27);
+    color: rgb(238, 233, 233);
+    display: flex;
+    height: 65px;
+    align-items: center;
+    padding: 8px;
+}
+.menu-logo h2{
+    font-size: 15px;
+}
+.menu-logo a{
+    color: rgb(238, 233, 233);
+    margin: 82%;
+}
+.menu a, .menu-logo a{
+    text-decoration: none;
+    color: rgb(238, 233, 233);
+}
+.menu{
+    background-color: rgb(241, 126, 49);
+    color: rgb(238, 233, 233);
+    display: flex;
+    gap: 30px;
+    height: 40px;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+
+#carouselExampleIndicators{
+    width: 70%;
+    max-width: 900px;
+    margin: 50px auto 20px;
+}
+#carouselExampleIndicators .carousel-item img{
+    height: 250px;
+    object-fit: cover;
+}
+
+#frase{
+    font-size: 15px;
+    color: rgb(241, 126, 49);
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+}
+hr{
+    color: rgb(241, 126, 49);
+    border: 2px solid;
+    width: 950px;
+    align-items: center;
+    margin: auto;
+}
+.sessao-produtos{
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.box-produto{
+    height: 180px;
+    width: 160px;
+    border-radius: 10px;
+    font-size: 13px;
+    color: rgb(113, 113, 113);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 5px;
+}
+.box-produto img{
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.descricao{
+    display: flex;
+    gap: 15px;
+    font-size: 10px;
+    margin-top: -5px;
+}
+.descricao p:first-child{
+    color: rgb(221, 63, 27);
+}
+.descricao p:last-child{
+    color: rgb(200, 200, 200);
+}
