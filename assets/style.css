@@ -20,21 +20,30 @@
 }
 .menu-logo a{
     color: rgb(238, 233, 233);
-    margin: 82%;
+    margin: 80%;
 }
 .menu a, .menu-logo a{
     text-decoration: none;
     color: rgb(238, 233, 233);
+    display: flex;
 }
 .menu{
     background-color: rgb(241, 126, 49);
     color: rgb(238, 233, 233);
     display: flex;
-    gap: 30px;
-    height: 40px;
+    gap: 120px;
+    height: 45px;
     justify-content: center;
     list-style-type: none;
     align-items: center;
+}
+.menu a:hover{
+    background-color: rgb(238, 233, 233);
+    color: rgb(241, 126, 49);
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    transition: 0.5s;
 }
 
 #carouselExampleIndicators{
@@ -47,6 +56,12 @@
     object-fit: cover;
 }
 
+#publi{
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    height: 70px;
+}
 #frase{
     font-size: 15px;
     color: rgb(241, 126, 49);
@@ -54,7 +69,7 @@
     align-items: center;
     margin: 20px auto;
 }
-hr{
+#hr1{
     color: rgb(241, 126, 49);
     border: 2px solid;
     width: 950px;
@@ -79,6 +94,9 @@ hr{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 5px;
 }
+.box-produto:hover{
+    border: 1.5px solid rgb(241, 126, 49);
+}
 .box-produto img{
     height: 100px;
     display: block;
@@ -97,4 +115,64 @@ hr{
 }
 .descricao p:last-child{
     color: rgb(200, 200, 200);
+}
+
+footer{
+    background-color: rgb(243, 243, 243);
+    height: 385px;
+    
+}
+.conjunto-footer{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.conjunto-footer h2{
+    font-size: 14px;
+}
+.conjunto-footer p{
+    font-size: 10px;
+}
+.footer-box{
+    padding: 60px;
+    margin-left: 12px;
+}
+#hr2{
+    width: 1000px;
+    align-items: center;
+    margin: auto;
+    margin-top: -40px;
+    border: 1.3px solid;
+}
+#copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+.pagamento-img img{
+    height: 20px;
+}
+.pagamento-img{
+    display: flex;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.pagamento-img img:first-child{
+    height: 18px;
+}
+.redes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.redes p{
+    margin-right: -50px;
+}
+.atendimento{
+    flex-direction: column;
+    display: grid;
+    gap: 10px;
+}
+.atendimento img{
+    height: 50px;
+    border-radius: 5px;
 }
