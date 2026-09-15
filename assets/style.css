@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
 }
-.menu-logo img{
+/* home */
+.menu-logo img, .menu-logo2 img{
     height: 55px;
     margin-left: 30px;
 }
@@ -88,7 +89,7 @@
 .box-produto{
     height: 180px;
     width: 160px;
-    border-radius: 10px;
+    border-radius: 3px;
     font-size: 13px;
     color: rgb(113, 113, 113);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -176,3 +177,127 @@ footer{
     height: 50px;
     border-radius: 5px;
 }
+
+/* login */
+.menu-logo2 section{
+    background-color: rgb(243, 243, 243);
+    color: rgb(221, 63, 27);
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#button-entre, #button-ajuda{
+    background-color: rgb(243, 243, 243);
+    border: 0;
+}
+#button-entre{
+    margin-left: 20px;
+}
+#button-ajuda{
+    margin-left: 500px;
+    width: 200px;
+    color: rgb(221, 63, 27);
+}
+#fundo-laranja{
+    background-color: rgb(221, 63, 27);
+}
+#fundo-cinza{
+    background-color: rgb(113, 113, 113);
+}
+.secao-login{
+    background-color: rgb(243, 243, 243);
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.secao-login article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secao-box{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+#titulo-login{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.input-caixa{
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(200, 200, 200);
+    width: 390px;
+    height: 40px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.button-entre{
+    width: 390px;
+    height: 40px;
+    border: 1px solid rgb(221, 63, 27);
+    background-color: rgb(221, 63, 27);
+    border-radius: 3px;
+    color: rgb(243, 243, 243);
+}
+.button-entre:hover{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(241, 126, 49);
+    transition: 0.5s;
+}
+.button-link button{
+    border: none;
+    text-decoration: none;
+    margin: 20px 47px;
+}
+a{
+    text-decoration: none;
+}
+.login-cadas{
+    align-items: center;
+}
+.login-cadas button{
+    color: rgb(221, 63, 27);
+    background-color: rgb(243, 243, 243);
+    border: none;
+    margin: 0 0 15px 0;
+    padding: 8px;
+}
+.divisao{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divisao p{
+    color: rgb(150, 150, 150);
+    margin: 0 7px;
+}
+.divisao hr{
+    border-top: 1px solid rgb(113, 113, 113);
+    margin: 0;
+    width: 185px;
+    align-items: center;
+}
+.redes-login{
+    background-color: rgb(243, 243, 243);
+    margin: 20px;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 5px 10px 5px 10px;
+}
+.redes-login-footer{
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(200, 200, 200);
+    padding: 2px;
+    width: 115px;
+}
+.redes-login img, .redes-login-footer img{
+    height: 25px;
+}
+
