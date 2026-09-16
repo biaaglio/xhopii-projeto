@@ -4,7 +4,7 @@
     padding: 0;
 }
 /* home */
-.menu-logo img, .menu-logo2 img{
+.menu-logo img, .menu-logo2 img, .menu-logo-produto img{
     height: 55px;
     margin-left: 30px;
 }
@@ -38,7 +38,7 @@
     list-style-type: none;
     align-items: center;
 }
-.menu a:hover{
+.menu a:hover, .menu-produto a:hover{
     background-color: rgb(238, 233, 233);
     color: rgb(241, 126, 49);
     justify-content: center;
@@ -95,7 +95,7 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 5px;
 }
-.box-produto:hover{
+.box-produto:hover, .op-produtos img:hover{
     border: 1.5px solid rgb(241, 126, 49);
 }
 .box-produto img{
@@ -246,7 +246,7 @@ footer{
     border-radius: 3px;
     color: rgb(243, 243, 243);
 }
-.button-entre:hover{
+.button-entre:hover, #button-comprar:hover{
     border: 2px solid rgb(0, 0, 0);
     background-color: rgb(241, 126, 49);
     transition: 0.5s;
@@ -354,4 +354,69 @@ a{
     padding: 5px;
     border-radius: 5px;
     margin: -12px 10px 0 0;
+}
+
+/* produto */
+.secao-produtos{
+    display: flex;
+    justify-content: center;
+}
+.menu-logo-produto{
+    background-color: rgb(221, 63, 27);
+    color:rgb(239, 238, 237);
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    height: 65px;
+}
+.menu-prod{
+    text-decoration: none;
+    background-color: rgb(150, 150, 150);
+    display: flex;
+    gap: 50px;
+    height: 45px;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+.menu-prod a{
+    text-decoration: none;
+    color: rgb(238, 233, 233);
+}
+.lista-prod1{
+    display: flex;
+}
+.op-produtos img{
+    height: 90px;
+    width: 95px;
+}
+.op-produtos button{
+    border: none;
+}
+.op-produtos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    margin: 40px 0 0 0;  
+}
+.op button{
+    border: 1px solid rgb(219, 217, 215);
+    padding: 8px 12px;
+    width: fit-content;
+    font-size: 10px;
+    color: rgb(155, 155, 155);
+    background-color: rgb(255, 255, 255)
+}
+.lista-prod2{
+    padding: 50px;
+}
+#button-comprar{
+    background-color: rgb(221, 63, 27);
+    color: rgb(239, 238, 237);
+    height: 50px;
+    width: 120px;
+    border: none;
+}
+#preco{
+    color: rgb(241, 126, 49);
 }

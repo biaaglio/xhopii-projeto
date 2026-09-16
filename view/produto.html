@@ -4,11 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/xhopii-projeto/assets/style.css">
 </head>
 <body>
     
+    <header class="menu-logo-produto">
+        <img src="/xhopii-projeto/assets/img/logo.png" alt="logo">
+        <h1>Xhopii</h1>
+    </header>    
+    
+    <nav>
+        <ul class="menu-prod">
+            <a href="/xhopii-projeto/view/home.html"><li>Home</li></a>
+            <a href="/xhopii-projeto/view/cadastro-cliente.html"><li>Cadastro Cliente</li></a>
+            <a href="/xhopii-projeto/view/cadastro-funcionario.html"><li>Cadastro Funcionário</li></a>
+            <a href="/xhopii-projeto/view/cadastro-produto.html"><li>Cadastro Produto</li></a>
+            <a href=""><li>Ver Clientes</li></a>                
+            <a href=""><li>Ver Funcionários</li></a>
+            <a href="/xhopii-projeto/view/vizualizacao-produtos.html"><li>Ver Produtos</li></a>
+        </ul>
+    </nav>
+    
+    <section class="secao-produtos">
+        <section class="lista-prod1">
+            <article class="op-produtos">
+                <button><img class="produtos" src="/xhopii-projeto/assets/img/produto1.png" alt=""></button>
+                <button><img class="produtos" src="/xhopii-projeto/assets/img/produto2.png" alt=""></button>
+                <button><img class="produtos" src="/xhopii-projeto/assets/img/produto3.png" alt=""></button>
+                <button><img class="produtos" src="/xhopii-projeto/assets/img/produto4.png" alt=""></button>
+                <button><img class="produtos" src="/xhopii-projeto/assets/img/produto5.png" alt=""></button>
+            </article>
 
+            <img id="destaque" src="/xhopii-projeto/assets/img/produto1.png" alt="camisa">
+        
+        </section>
+    
+        <section class="lista-prod2">
+            <article>
+                <h2>Camisa Desenvolvedor Front-End CSS</h2>
+                <h2 id="preco">R$56,90</h2>
+                <h6>171 peças disponíveis</h6>
+                <h6>Modelos:</h6>
+            
+                <article class="op">
+                    <button>Preto</button>
+                    <button>Azul</button>
+                    <button>Verde</button>
+                    <button>Cinza</button>
+                    <button>Rosa</button>                
+                </article>
+
+                <h6>Tamanhos:</h6>
+
+                <article class="op">
+                    <button>P</button>
+                    <button>M</button>
+                    <button>G</button>
+                    <button>GG</button>
+                </article>
+
+                <h6>Tamanho Selecionado: P</h6>
+
+                <button id="button-comprar">Comprar Agora</button>
+            
+            </article> 
+        </section>
+
+    </section>
     
 </body>
 </html>
